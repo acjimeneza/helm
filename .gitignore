@@ -1,0 +1,7 @@
+# .Net objects
+
+**/obj
+**/bin
+**/out
+
+.vscode
