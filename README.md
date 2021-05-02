@@ -40,11 +40,11 @@ cd siigo_chart
 helm create ms-chart
 ```
 
-Delete all files created inside the Template folder, and then create two files **deployemnt.yaml** and **service.yaml**
+Delete all files created inside the Template folder, and then create two files **Deployment.yaml** and **service.yaml**
 
-### deployemnt.yaml
+### Deployment.yaml
 
-Add this code to **deployemnt.yaml** file
+Add this code to **Deployment.yaml** file
 
 ```
 ---
