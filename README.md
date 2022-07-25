@@ -34,8 +34,8 @@ helm version
 Create a folder and then create a base for the chart
 
 ```
-mkdir siigo_chart
-cd siigo_chart
+mkdir app_chart
+cd app_chart
 
 helm create ms-chart
 ```
@@ -109,7 +109,7 @@ spec:
 
 ### Testing the chart
 
-In the folder `Step1/siigo_chart` run the code `helm template ms-chart ms-chart`. This will show an output in the console previewing the generated chart.
+In the folder `Step1/app_chart` run the code `helm template ms-chart ms-chart`. This will show an output in the console previewing the generated chart.
 
 After checking the chart, you need to install it running this command `helm install ms-chart ms-chart`
 
